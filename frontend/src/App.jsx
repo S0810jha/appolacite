@@ -10,7 +10,7 @@ import MyAppointments from "./pages/MyAppointments";
 import Login from "./pages/Login";
 import MyProfile from "./pages/MyProfile";
 import Footer from "./components/Footer";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
