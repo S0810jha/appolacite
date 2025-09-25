@@ -164,13 +164,13 @@ const MyAppointments = () => {
             <div></div>
 
             <div className="flex flex-col justify-end gap-2">
-              {!item.cancelled && item.payment && !item.isCompleted && (
+              {/* {!item.cancelled && item.payment && !item.isCompleted && (
                 <button className="text-sm text-green-500 text-center sm:min-w-48 py-2 border border-green-700 rounded-md">
                   Paid
                 </button>
-              )}
+              )} */}
 
-              {!item.cancelled && !item.payment && !item.isCompleted && (
+              {!item.cancelled  && !item.isCompleted && (
                 <button className="text-sm text-stone-500 text-center sm:min-w-48 py-2 border rounded-md hover:bg-primary hover:text-white transition-all duration-300">
                   Pay Online
                 </button>
@@ -188,8 +188,8 @@ const MyAppointments = () => {
                   Appointmrnt Cancelled
                 </button>
               )}
-              {item.iscompleted && 
-                <button className="text-sm text-green-600 text-center sm:min-w-48 py-2 border border-green-700 rounded-md">Completed</button>
+              {item.isCompleted && !item.cancelled &&
+                (<button className="text-sm text-green-600 text-center sm:min-w-48 py-2 border border-green-700 rounded-md">Completed</button>)
               }
             </div>
           </div>
