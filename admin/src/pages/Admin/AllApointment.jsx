@@ -64,7 +64,7 @@ const AllApointment = () => {
             {item.cancelled ? (
               <p className="text-red-400 text-xs font-medium">Cancelled</p>
             ) : item.isCompleted ? (
-              <p className="text-sm text-green-600 text-center sm:min-w-48 py-2 border border-green-700 rounded-md">
+              <p className="text-xs text-green-600 ">
                 Completed
               </p>
             ) : (
