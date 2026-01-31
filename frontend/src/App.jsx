@@ -15,7 +15,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   return (
-    <div className="mx-4 sm:mx-[10%] bg-[#f2f3ff] rounded-md px-10">
+    <div className="mx-4 sm:mx-[10%] bg-[#e5f1e8] rounded-md px-10 border-x-2 border-primary">
       <ToastContainer />
       <Navbar />
       <Routes>
@@ -29,7 +29,7 @@ const App = () => {
         <Route path="/my-appointments" element={<MyAppointments />} />
         <Route path="/appointment/:docId" element={<Appointment />} />
       </Routes>
-
+      
       <Footer />
     </div>
   );

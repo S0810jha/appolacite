@@ -140,7 +140,7 @@ const MyAppointments = () => {
           >
             <div>
               <img
-                className="w-32 bg-[#BCCDF5] rounded-lg"
+                className="w-32 bg-[#91dfa6] rounded-lg"
                 src={item.docData.image}
                 alt=""
               />
@@ -170,11 +170,11 @@ const MyAppointments = () => {
                 </button>
               )} */}
 
-              {!item.cancelled  && !item.isCompleted && (
+              {/* {!item.cancelled  && !item.isCompleted && (
                 <button className="text-sm text-stone-500 text-center sm:min-w-48 py-2 border rounded-md hover:bg-primary hover:text-white transition-all duration-300">
                   Pay Online
                 </button>
-              )}
+              )} */}
               {!item.cancelled && !item.isCompleted && (
                 <button
                   onClick={() => cancelAppointment(item._id)}

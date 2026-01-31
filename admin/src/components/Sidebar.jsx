@@ -15,7 +15,7 @@ const Sidebar = () => {
           <NavLink
             className={({ isActive }) =>
               `flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${
-                isActive ? "bg-[#f2f3ff] border-l-4 border-primary" : ""
+                isActive ? "bg-[#e5f1e8] border-l-4 border-primary" : ""
               }`
             }
             to={"/admin-dashboard"}
@@ -26,7 +26,7 @@ const Sidebar = () => {
           <NavLink
             className={({ isActive }) =>
               `flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${
-                isActive ? "bg-[#f2f3ff] border-l-4 border-primary" : ""
+                isActive ? "bg-[#e5f1e8] border-l-4 border-primary" : ""
               }`
             }
             to={"/all-appointment"}
@@ -37,7 +37,7 @@ const Sidebar = () => {
           <NavLink
             className={({ isActive }) =>
               `flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${
-                isActive ? "bg-[#f2f3ff] border-l-4 border-primary" : ""
+                isActive ? "bg-[#e5f1e8] border-l-4 border-primary" : ""
               }`
             }
             to={"/add-doctor"}
@@ -48,7 +48,7 @@ const Sidebar = () => {
           <NavLink
             className={({ isActive }) =>
               `flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${
-                isActive ? "bg-[#f2f3ff] border-l-4 border-primary" : ""
+                isActive ? "bg-[#e5f1e8] border-l-4 border-primary" : ""
               }`
             }
             to={"/doctor-list"}
@@ -64,7 +64,7 @@ const Sidebar = () => {
           <NavLink
             className={({ isActive }) =>
               `flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${
-                isActive ? "bg-[#f2f3ff] border-l-4 border-primary" : ""
+                isActive ? "bg-[#e5f1e8] border-l-4 border-primary" : ""
               }`
             }
             to={"/doctor-dashboard"}
@@ -76,7 +76,7 @@ const Sidebar = () => {
           <NavLink
             className={({ isActive }) =>
               `flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${
-                isActive ? "bg-[#f2f3ff] border-l-4 border-primary" : ""
+                isActive ? "bg-[#e5f1e8] border-l-4 border-primary" : ""
               }`
             }
             to={"/doctor-appointment"}
@@ -88,7 +88,7 @@ const Sidebar = () => {
           <NavLink
             className={({ isActive }) =>
               `flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${
-                isActive ? "bg-[#f2f3ff] border-l-4 border-primary" : ""
+                isActive ? "bg-[#e5f1e8] border-l-4 border-primary" : ""
               }`
             }
             to={"/doctor-profile"}

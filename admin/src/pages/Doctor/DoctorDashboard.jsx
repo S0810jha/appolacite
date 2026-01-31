@@ -7,7 +7,6 @@ const DoctorDashboard = () => {
   const {
     dToken,
     dashData,
-    setDashData,
     getDashData,
     appointmentCancel,
     appointmentComplet,

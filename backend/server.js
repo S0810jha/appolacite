@@ -9,7 +9,7 @@ import userRouter from './routes/user.route.js'
 
 // app config
 const app = express()
-const port = 8000
+const port = process.env.PORT || 8000
 
 // connect database
 connectDB()
