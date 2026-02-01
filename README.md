@@ -136,5 +136,3 @@ Shubham Jhan
 
 
 ---
-
-If you'd like, I can add a simple `.env.example` to each package or create `docs/` with API endpoint summaries. Would you like that? ✨
