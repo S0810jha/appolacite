@@ -19,11 +19,11 @@ const Contact = () => {
         <div className="flex flex-col justify-center items-start gap-6 md:w-2/4 text-gray-600">
           <p className="font-semibold text-lg text-gray-600">OUR OFFICE</p>
           <p className="text-gray-500">
-            1703/22 Gali No. 6M, <br />
+            golf course road <br />
             Gurugram, Haryana
           </p>
           <p className="text-gray-500">
-            TEL: (+91) 902 7346 760 <br />
+            TEL: (+91) 101 101 101 <br />
           </p>
           <p className="font-semibold text-lg text-gray-600">
             Carears at APPOLACITE
