@@ -15,7 +15,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   return (
-    <div className="mx-4 sm:mx-[10%] bg-[#e5f1e8] rounded-md px-10 border-x-2 border-primary">
+    <div className="mx-4 sm:mx-[10%] bg-[#f8f8f8] rounded-md px-10 border-x-2 border-primary">
       <ToastContainer />
       <Navbar />
       <Routes>

@@ -18,15 +18,26 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center py-4 text-sm mb-5 border-b border-b-gray-400 ">
-      <img
-        onClick={() => {
-          Navigate("/");
-          scrollTo(0, 0);
-        }}
-        className="w-40 cursor-pointer"
-        src={assets.apollocite_logo}
-        alt="logo"
-      />
+      <div className="flex">
+        <img
+          onClick={() => {
+            Navigate("/");
+            scrollTo(0, 0);
+          }}
+          className="w-40 cursor-pointer"
+          src={assets.apollocite_logo}
+          alt="logo"
+        />
+        {
+          !(token && userData) &&
+          <div className="border border-primary rounded-full flex items-center justify-center px-2 font-semibold text-primary">
+            <a href="https://apollacite-admin.vercel.app/" target="_blank" className="px-1">Admin </a>
+            <p>/</p>
+            <a href="https://apollacite-admin.vercel.app/" target="_blank" className="px-1"> Doctor</a>
+          </div>
+        }
+
+      </div>
       <ul className="hidden md:flex items-start gap-5 font-medium">
         <NavLink to="/">
           <li className="py-2 px-3 rounded-2xl hover:bg-[#91dfa6] transition-all duration-200">HOME</li>
